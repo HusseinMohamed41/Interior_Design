@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn {
+    @apply bg-black text-white rounded px-12 py-4 cursor-pointer;
+  }
+}
